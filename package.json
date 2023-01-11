@@ -1,0 +1,26 @@
+{
+  "name": "survey",
+  "version": "1.0.0",
+  "description": "A survey app build with react for data gathering",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "survey",
+    "api",
+    "rest",
+    "api"
+  ],
+  "author": "Peter Olu",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
+  }
+}
